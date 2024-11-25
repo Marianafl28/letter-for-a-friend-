@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Carta</title>
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+            <div class="letter">
+                <div class="text">
+                    <strong>Dear friend</strong>
+                    <p>Congrats on opening this letter! You’re either super curious or just really bored, and honestly, I respect both.
+
+                        I just wanted to say you’re like Wi-Fi—everything’s better when you’re around, and chaos when you’re not. If the zombie apocalypse happens, you’re on my team, not for your survival skills, but because you’d make it hilarious.
+                        
+                        Anyway, stay awesome and remember: life’s better with memes.
+                        
+                        Cheers,                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="heart"></div>
+    </div>
+</div>
+<script>
+    const envelope = document.querySelector('.envelope-wrapper');
+    envelope.addEventListener('click', () => {
+        envelope.classList.toggle('flap');
+    });
+    </script>
+
+</body>
+</html>
